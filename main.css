@@ -1,0 +1,27 @@
+
+[data-theme="dark"] {
+    --primary-color: #1d1d1d;
+    --secondary-color: #242425;
+    --font-color: rgb(206, 206, 206);
+}
+[data-theme="blue"] {
+    --primary-color: #4a91e4;
+    --secondary-color: #63a6f3;
+    --font-color: rgb(255, 255, 255);
+}
+[data-theme="green"] {
+    --primary-color: #96be69;
+    --secondary-color: #b1db81;
+    --font-color: rgb(46, 46, 46);
+
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    transition: all .3s;
+}
+.container {
+    background-color: var(--secondary-color);
+    transition: all .3s;
+}
